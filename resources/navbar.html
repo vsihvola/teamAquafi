@@ -1,0 +1,75 @@
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="content/55x55.png" alt="Aquafi"> Team Aquafi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="myMenu navbar-collapse collapse ">
+            <ul class="nav navbar-nav text-center ml-auto" id="navbar">
+                <li class="nav-item" id="navIndex">
+                    <a class="nav-link" href="index.html">ETUSIVU</a>
+                </li>
+                <li class="nav-item" id="navTeam">
+                    <a class="nav-link" href="joukkue.html">TIIMI</a>
+                </li>
+
+                <li class="nav-item" id="navNews">
+                    <a class="nav-link" href="uutiset.html">UUTISET</a>
+                </li>
+                <li class="nav-item" id="navPartners">
+                    <a class="nav-link" href="yhteistyokumppanit.html">YHTEISTYÖKUMPPANIT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+            </ul>
+            <!---SocialMedia--->
+            <ul class="navbar-nav ml-auto">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <li class="logo">
+                            <a href="https://www.facebook.com/TeamAquafi/">
+                                <img src="content/facebook.png" width="15em;" alt="facebook">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="col-xs-4">
+                        <li class="logo">
+                            <a href="https://www.instagram.com/teamaquafi/">
+                                <img src="content/instagramw.png" width="15em;" alt="instagram">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="col-xs-4">
+                        <li class="logo">
+                            <a href="https://twitter.com/TAquafi">
+                                <img src="content/twitternew.png" width="15em;" alt="twitter">
+                            </a></li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script>
+    $(function() {
+        var sPath = window.location.pathname;
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+        $('a[href="' + sPage + '"]').parent().addClass('active');
+        console.log(sPath);
+
+        if (sPage.includes("n100") || sPage.includes("uutiset_2")) {
+            $('a[href="' + "uutiset.html" + '"]').parent().addClass('active');
+            console.log(sPath);
+        }
+
+
+    });
+
+</script>
