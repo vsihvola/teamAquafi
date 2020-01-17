@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Aquafi</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel=' stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Blinker' rel=' stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/news.js"></script>
+    <script>
+        $(function() {
+
+            $("#footer").load("resources/footer.html");
+            $("#navbarer").load("resources/navbar.html");
+            $("#sponsored").load("resources/sponsors.html");
+        });
+
+    </script>
+</head>
+
+<body class="App">
+
+
+    <div id="content-wrap">
+        <div id="main">
+            <section id="bgImage">
+                <!----Navbar--->
+                <div id="navbarer"></div>
+                <!----Sponsors---->
+                <div id="sponsored"></div>
+
+                <!---News--->
+                <div class="row"></div>
+                <div class="container offset-top primary-bg">
+                    <div class="row" style="padding-top: 2%">
+                        <div class="col-xs-12 col-md-6 col-lg-4" style="margin-left: auto; margin-right: auto;">
+                            <img class="img-fluid textImage" style="max-height: 100%; max-width: 100%;">
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8">
+                            <div class="newsSmall" style="text-align: left; width: 75%; margin-bottom: 0; ">
+                                <p class="textHeading"></p>
+                                <div class="textNews"></div>
+                                <p id="teamTag"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script>
+        newsText();
+
+    </script>
+</body>
+
+</html>

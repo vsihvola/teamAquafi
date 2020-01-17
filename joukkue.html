@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Aquafi</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Blinker' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel=' stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(function() {
+            $("#footer").load("resources/footer.html");
+            $("#navbarer").load("resources/navbar.html");
+            $("#sponsored").load("resources/sponsors.html");
+
+
+        });
+
+    </script>
+
+</head>
+
+<body class="App">
+
+    <!----Navbar--->
+    <div id="content-wrap">
+        <div id="main">
+            <div id="navbarer">
+
+            </div>
+            <!----Sponsors---->
+            <div id="sponsored"></div>
+
+            <!---BackgroundImage--->
+            <section id="bgImage">
+                <!---Teams--->
+                <div class="row"></div>
+                <div class="container offset-top primary-bg">
+
+
+                    <div class="row" style="padding: 10px">
+
+
+                        <div class="col-12 text-left">
+                            <h1 class="results offset-top">
+                                CS:GO Joukkue
+                            </h1>
+
+                            <p class="teamSmall" style="margin-bottom: 2%;">CS:GO joukkueemme on tehtiin 2019 marraskuussa. Joukkueeseen kuuluu tällä hetkellä: </p>
+                            <p class="teamSmall">Alex "K4RPAASI" Haavikkoaho - AWP/IGL</p>
+                            <p class="teamSmall">Timo "Monoxx" Irmasto - Entry/Rifler</p>
+                            <p class="teamSmall">Miko "Randompappa" Räikkönen - Support/Rifler</p>
+                            <p class="teamSmall">Henrik "iskä" Haavikkoaho - Entry/Rifler</p>
+                            <p class="teamSmall">Max "Shax" Halonen - Support/Rifler</p>
+                            <p class="teamSmall"><br>Toni "FrisKyyH" Nikka - Valmentaja</p>
+                        </div>
+
+                        <div class="col-6 text-left">
+                            <p class="teamSmall" style="margin-top: 10%">
+                                Team Aquafin managerina toimii Ville Sihvola. Ville hoitaa pelaamisen ja valmentamisen ulkopuoliset asiat ja pyrkii kasvattaa Aquafin toimintaa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+
+</html>

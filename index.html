@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Team Aquafi</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel=' stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Blinker' rel=' stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(function() {
+
+            $("#footer").load("resources/footer.html");
+            $("#navbarer").load("resources/navbar.html");
+            $("#results").load("resources/results.html");
+            $("#sponsored").load("resources/sponsors.html");
+            $("#3news").load("resources/3news.html");
+            $("#links").load("resources/links.html");
+            $("#upcoming").load("resources/upcoming.html");
+        });
+
+    </script>
+
+</head>
+
+<body class="App">
+    <!----Navbar--->
+    <div id="content-wrap">
+        <div id="main">
+            <div id="navbarer"></div>
+            <!----Sponsors---->
+            <div id="sponsored"></div>
+
+            <!---BackgroundImage--->
+            <section id="bgImage">
+                <!---Scores--->
+                <div class="row"></div>
+                <div class="container offset-top primary-bg">
+
+                    <div class="row">
+                        <!---Results--->
+                        <div class="col-xs-12 col-md-12 col-lg-8 text-center">
+                            <h1 class="results offset-top" align="center">TULOKSET</h1>
+                            <div id="results"></div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-12 col-lg-4 text-center" style="margin-left: auto; margin-right: auto">
+                            <h1 class="results offset-top">TULEVAT OTTELUT</h1>
+                            <div id="upcoming"></div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div id="3news"></div>
+                </div>
+            </section>
+        </div>
+    </div> <!-- Footer -->
+    <div id="footer"></div>
+
+
+
+</body>
+
+</html>
