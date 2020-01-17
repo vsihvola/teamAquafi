@@ -1,0 +1,61 @@
+{
+    "news": [
+        {
+            "id": "n10001.html",
+            "head": "Team Aquafi voitti Winter Esport Seriesin!",
+            "frontText": "Team Aquafi voitti sunnuntaina 22.12.2019 Winter Esport Seriesin finaalin 2-0 InsaneFive Esportsia vastaan.",
+            "picture": "content/game.jpg",
+            "p1": "Team Aquafi voitti sunnuntaina 22.12.2019 Winter Esport Seriesin finaalin 2-0 InsaneFive Esportsia vastaan.",
+            "p2": "Ensimmäinen kartta de_mirage oli tasaista vääntöä. InsaneFive oli kova vastustaja viimeisille kierroksille asti, kunnes Aquafi vei 16-10.",
+            "p3": "De_train lähti jätkiltä hyvin liikkeelle ja vastustaja alko näyttää uupumisen merkkejä. En sinällä ihmettele, 7 tuntia kynäriä päivään mukaan lukien semifinaalit ja finaalikarsinnat. Jätkät hoiti de_trainin näyttävästi viimeistellen pelin 16-5.",
+            "p4": "Winter Esport Series oli Team Aquafin ensimmäinen turnausvoitto. Kiitoksia vastustajille, vetäjille ja castereille.",
+            "teamTag": "-Team Aquafi"
+        },
+        {
+            "id": "n10002.html",
+            "head": "Kiitoksia, Aitoo",
+            "frontText": "Team Aquafi on päättänyt luopua Support-pelaajasta, Sami \"Aitoo\" Latvasesta.",
+            "picture": "content/fw.png",
+            "p1": "Team Aquafi on päättänyt luopua Support-pelaajasta, Sami \"Aitoo\" Latvasesta.",
+            "p2": "Aitoo auttoi kehittämään joukkuetta sille tasolle, millä joukkue on nytten.",
+            "p3": "Kiitämme suuresti hänen panostuksesta viimeisten kuukausien aikana ja toivotamme kaikkea parasta tulevaisuuteen.",
+            "teamTag": "-Team Aquafi"
+        },
+        {
+            "id": "n10003.html",
+            "head": "Team Aquafi etsii uutta Support-pelaajaa",
+            "frontText": "Team Aquafi etsii kovia support pelaajia tryouteille! Oletkos se sinä tai kaverisi?",
+            "picture": "content/tryouts_1.png",
+            "p1": "Etsimme viittä pelaajaa tryouteille. Tryoutit tehdään scrimmien muodossa.",
+            "p2": "Toivomme pelaajalta rentoa ja pirteää asennetta hyvän pelinälyn lisäksi. Kokemusta joukkuepelaamisesta tulisi olla reilusti. Ikä ei ole isoin kriteeri, joukkueemme koostuu 17-27 vuotiasta. Sivuvaatimuksia ovat Global ja Faceit lvl10 tai muuta tason vastaavaa näyttöä.",
+            "p3": "Aquafi on nouseva organisaatio ja tavoitteet on korkealla. Ympäristöön kuuluu hyvää ja vaativaa valmennusta, joten vaadimme pelaajan asenteen olevan kohdillaan.",
+            "teamTag": "-Team Aquafi"
+        },
+        {
+            "id": "n10004.html",
+            "head": "Team Aquafin keväällä tapahtuu!",
+            "frontText": "Team Aquafi osallistuu tulevaan ESL Open Leagueen ja Dreamhack Anaheim European Open Qualifiereihin.",
+            "picture": "content/league.png",
+            "p1": "Team Aquafi osallistuu tulevaan ESL Open Leagueen ja Dreamhack Anaheim European Open Qualifiereihin.",
+            "p2": "ESL Open League starttaa kokonaisuudessaan 20.1.2020. Team Aquafin pelien aikataulut päivitetään, kunnes ne on selvillä.",
+            "p3": "Dreamhack Anaheim European Open Qualifier ajankohta on tammikuun lopussa, 24.-26.1.2020. Aikataulut julkaistaan myöhemmin.",
+            "p4": "Joukkue odottaa innolla pelien alkamista.",
+            "teamTag": "-Team Aquafi"
+        },
+        {
+            "id": "n10005.html",
+            "head": "Tervetuloa Shax!",
+            "frontText": "Team Aquafi vahvistuu kovalla talentilla, kun Max \"Shax\" Halonen liittyy tiimiin.",
+            "picture": "content/shax.png",
+            "p1": "Team Aquafi vahvistuu kovalla talentilla, kun Max \"Shax\" Halonen liittyy tiimiin.",
+            "p2": "Shax vakuutti tryouteilla rauhallisuudellaan, taidoillaan ja hyvällä asenteella.",
+            "p3": "\"Kiitos.\" -Shax",
+            "p4": "Team Aquafi alkaa nyt keskittymään tuleviin koitoksiin, ESL Open League ja Dreamhack Anaheim European Open Qualifier.",
+            "teamTag": "-Team Aquafi"
+        }
+
+
+        ]
+
+
+}
